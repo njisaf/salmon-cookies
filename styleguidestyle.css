@@ -10,7 +10,7 @@ body {
 
 .floatingbox {
   display:inline-block;
-  background-color: #AEC8D9;
+  background-color: #A4BCCC;
   text-align: left;
   padding: 50px;
   margin-left: 50px;
@@ -22,7 +22,6 @@ body {
 h1 {
   color: black;
   font-weight: 700;
-  font-size: 50px;
 }
 
 h2 {
@@ -35,18 +34,11 @@ p {
   font-weight: 400;
 }
 
-ul {
-  padding: 0px;
-}
-
 code {
   display:inline-block;
+  background-color: #AEC8D9;
   padding: 5px;
   font-family:"Courier New",Courier,monospace
-}
-
-.highlight {
-  color: #7DB28C;
 }
 
 .palette {
@@ -62,14 +54,10 @@ code {
   background-color: #ffe6e6;
 }
 
-/*#paletteTwo {
+#paletteTwo {
   background-color: #A4BCCC;
-}*/
+}
 
 #paletteThr {
   background-color: #AEC8D9;
-}
-
-#paletteFou {
-  background-color: #7DB28C;
 }
