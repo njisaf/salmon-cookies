@@ -42,11 +42,20 @@ ul {
 code {
   display:inline-block;
   padding: 5px;
-  font-family:"Courier New",Courier,monospace
+  font-family:"Courier New",Courier,monospace;
 }
 
 .highlight {
   color: #7DB28C;
+}
+
+.code {
+  font-family: arial;
+}
+
+.disclaimer {
+  font-family: times;
+  font-size: 10%;
 }
 
 .palette {
