@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro:700,400);
+
+html {
+  background-color: #ffe6e6;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+body {
+}
+
+.floatingbox {
+  display:inline-block;
+  background-color: #AEC8D9;
+  text-align: left;
+  padding: 50px;
+  margin-left: 50px;
+  margin-right: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  color: black;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+h2 {
+  color: black;
+  font-weight: 400;
+}
+
+p {
+  color: black;
+  font-weight: 400;
+}
+
+ul {
+  padding: 0px;
+}
+
+code {
+  display:inline-block;
+  padding: 5px;
+  font-family:"Courier New",Courier,monospace;
+}
+
+.highlight {
+  color: #7DB28C;
+}
+
+.code {
+  font-family: arial;
+}
+
+.disclaimer {
+  font-family: times;
+  font-size: 10%;
+}
+
+.palette {
+  display: inline-block;
+  text-align: center;
+  width: 150px;
+  height: 100px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+#paletteOne {
+  background-color: #ffe6e6;
+}
+
+/*#paletteTwo {
+  background-color: #A4BCCC;
+}*/
+
+#paletteThr {
+  background-color: #AEC8D9;
+}
+
+#paletteFou {
+  background-color: #7DB28C;
+}
