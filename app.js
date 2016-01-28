@@ -16,7 +16,7 @@ var Store = function(storeName, storeId, minCust, maxCust, avgSales) {
   storeObjects.push(this);
   this.salesHourly = [];
   this.salesTotal = 0;
-}
+};
 
 Store.prototype.salesRandomizer = function() {
   return Math.random() * (this.maxCust - this.minCust) + this.minCust;
@@ -44,7 +44,11 @@ Store.prototype.storeRenderer = function() {
   elSection.appendChild(elUl);
 };
 
-for (var i = 0; i < storeNames.length; i++) {
-  new Store(storeNames[i], storeId[i], minCustomers[i], maxCustomers[i], avgCookieSales[i]);
-  storeObjects[i].storeRenderer();
-}
+// new Store()
+
+window.onload = function() {
+  for (var i = 0; i < storeNames.length; i++) {
+    new Store(storeNames[i], storeId[i], minCustomers[i], maxCustomers[i], avgCookieSales[i]);
+    storeObjects[i].storeRenderer();
+  }
+};
