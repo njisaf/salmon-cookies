@@ -1,3 +1,8 @@
-# The Salmon Cookie Project -- Exercise 2
+# The Salmon Cookie Project -- Exercise 3
 
-Exercise for practicing with object constructor functions.
+This table of data generates automatically, apart from some initial values which have already been stored in arrays.
+
+# Thanks
+
+The code used to build the constructor function was inspired by [Erin Roby](https://github.com/erinroby).
+Listener Events code shamelessly adapted from [Sam Nuntz](https://github.com/Tuesday-Last). 
