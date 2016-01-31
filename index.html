@@ -7,25 +7,22 @@
   </head>
   <body>
     <section class="floatingbox">
-      <p id="pikeplace"></p>
-      <p id="seatac"></p>
-      <p id="southcenter"></p>
-      <p id="bellevue"></p>
-      <p id="alki"></p>
+      <table id="dataTable">
+      </table>
       <p>Enter your new data below:</p>
-      <form>
-        <label id="storeName">
-          Store Name: <input type="text">
+      <form id="storeForm">
+        <label>
+          Store Name: <input type="text" id="storeName">
         </label>
-        <label id="storeMinCustomers">
-          Minimum customers: <input type="text">
+        <label>
+          Minimum Customers: <input type="text" id="storeMin">
         </label>
-        <label id="storeMaxCustomers">
-          Maximum customers: <input type="text">
-        <label id="storeAverage">
-          Average customers: <input type="text">
+        <label>
+          Maximum Customers: <input type="text" id="storeMax">
+        <label>
+          Average Customers: <input type="text" id="storeAvg">
         </label>
-        <input type="button" id="storeSubmit" value="Submit">
+        <input type="submit" id="storeSubmit" value="Submit">
       </form>
     </section>
     <script src="app.js"></script>
