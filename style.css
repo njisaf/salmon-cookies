@@ -9,14 +9,41 @@ body {
 }
 
 .floatingbox {
-  display:inline-block;
+  float: center;
   background-color: #AEC8D9;
-  text-align: left;
   padding: 50px;
-  margin-left: 50px;
+  margin-left: 200px;
   margin-right: 300px;
   margin-top: 50px;
   margin-bottom: 50px;
+  width: 800px;
+}
+
+.sections {
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.sections_img {
+  width: 300px;
+}
+
+.flair {
+  width: 150px;
+  padding-right: 95px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#introtext {
+  display: inline-block;
+  padding-bottom: 50px;
+}
+
+#patpic {
+  float: left;
+  padding-bottom: 25px;
+  padding-right: 50px;
 }
 
 h1 {
